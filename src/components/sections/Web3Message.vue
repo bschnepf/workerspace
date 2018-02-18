@@ -55,7 +55,6 @@
     },
     props: [ 'user' ]
   }
-
   import { APPROVED_NETWORK_ID, NETWORKS } from '../../util/constants'
 </script>
 
@@ -64,7 +63,6 @@
     width: 100%;
     height: 420px;
   }
-
   .blockchain-message {
     float: left;
     margin-top: 20px;
@@ -74,7 +72,6 @@
     width: auto;
     padding: 10px;
   }
-
   .content {
     height: 100%;
     text-align: center;
@@ -82,12 +79,10 @@
     margin: auto;
     padding: 160px;
   }
-
   .message {
     height: 80px;
     line-height: 40px;
   }
-
   .metamask-resource {
     background: url('/static/images/metamask.png') no-repeat;
     background-size: contain;

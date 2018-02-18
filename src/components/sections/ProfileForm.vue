@@ -17,7 +17,7 @@
     </div>
 
     <div class="row">
-      <input type="button" value="Submit" @click="submitProfileToTheBlockchain">
+      <input type="button" value="Submit" style="color: black" @click="submitProfileToTheBlockchain">
     </div>
   </div>
 </template>

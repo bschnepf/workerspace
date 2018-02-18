@@ -17,5 +17,13 @@ export default {
     hasWeb3InjectedBrowser: false,
     isConnectedToApprovedNetwork: false,
     isLoggedIn: false
+  },
+  project: {
+    description: '',
+    owner: '',
+    worker: '',
+    revenue: '',
+    costs: '',
+    status: ''
   }
 }

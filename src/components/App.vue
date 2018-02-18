@@ -27,6 +27,8 @@ export default {
           return Web3Message
         case '/dashboard':
           return Profile
+        case '/project':
+          return Project
         case '/sign-up':
           return ProfileForm
         case '/profile/edit':
@@ -84,6 +86,7 @@ export default {
 import { mapState, mapActions } from 'vuex'
 import { ACTION_TYPES } from '../util/constants'
 import Profile from './sections/Profile'
+import Project from './Project'
 import ProfileForm from './sections/ProfileForm'
 import Web3Message from './sections/Web3Message'
 </script>
@@ -106,7 +109,7 @@ a {
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: red;
   color: #2c3e50;
   width: 100%;
   min-width: 1020px;

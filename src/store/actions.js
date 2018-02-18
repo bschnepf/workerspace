@@ -55,6 +55,14 @@ export default {
       })
     })
   },
+  [ACTION_TYPES.PROJECT] ({ commit }) {
+    return new Promise(function (resolve, reject) {
+      commit(MUTATION_TYPES.PRJECT, {
+        callback: () => resolve()
+      })
+    })
+  },
+
   [ACTION_TYPES.CHANGE_CURRENT_ROUTE_TO] ({ commit }, newRoute) {
     commit(MUTATION_TYPES.CHANGE_CURRENT_ROUTE_TO, newRoute)
   }

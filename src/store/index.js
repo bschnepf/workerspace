@@ -11,7 +11,8 @@ Vue.use(Vuex)
 const vuexLocalStorage = new VuexPersist({
   key: 'vuex',
   storage: window.localStorage,
-  reducer: state => ({ user: state.user })
+  reducer: state => ({ user: state.user }),
+  reducer2: state => ({ project: state.project })
 })
 
 const store = new Vuex.Store({
